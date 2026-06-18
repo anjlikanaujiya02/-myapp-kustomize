@@ -1,0 +1,10 @@
+resources:
+  - ../../base
+
+namespace: dev
+
+namePrefix: dev-
+
+images:
+  - name: <your-docker-username>/myapp
+    newTag: latest
