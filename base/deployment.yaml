@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: <your-docker-username>/myapp:latest
+          image:anjli14/myapp:latest
           ports:
             - containerPort: 3000
